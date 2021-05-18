@@ -2,12 +2,12 @@ package cn.kgc.mapper;
 
 import java.util.List;
 
-import cn.kgc.pojo.Role;
+import cn.kgc.pojo.User;
 
 public interface UserMapper {
-    List<Role> selectUser();
+    List<User> selectUser();
     Integer selectUserById(Integer id);
-    Role insertUser(Role user);
+    User insertUser(User user);
     Integer deleteUser(Integer id);
-    Integer updateUser(Role user);
+    Integer updateUser(User user);
 }

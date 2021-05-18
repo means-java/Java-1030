@@ -2,7 +2,7 @@ package cn.kgc.mapper;
 
 import java.util.List;
 
-import cn.kgc.pojo.Role;
+import cn.kgc.pojo.User;
 
 public class UserMapperDao implements UserMapper {
 
@@ -13,13 +13,13 @@ public class UserMapperDao implements UserMapper {
     }
 
     @Override
-    public Role insertUser(Role user) {
+    public User insertUser(User user) {
         // TODO Auto-generated method stub
         return null;
     }
 
     @Override
-    public List<Role> selectUser() {
+    public List<User> selectUser() {
         // TODO Auto-generated method stub
         return null;
     }
@@ -31,7 +31,7 @@ public class UserMapperDao implements UserMapper {
     }
 
     @Override
-    public Integer updateUser(Role user) {
+    public Integer updateUser(User user) {
         // TODO Auto-generated method stub
         return null;
     }
